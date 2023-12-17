@@ -73,14 +73,6 @@ body {
     inherits: true;
     initial-value: 0%;
 }
-@supports not (--css: variables) {
-  @-moz-document url-prefix() {
-    @property --per {
-      syntax: "<percentage>";
-      inherits: true;
-      initial-value: 0%;
-    }
-  }
 
 h2 {
     width: fit-content;
